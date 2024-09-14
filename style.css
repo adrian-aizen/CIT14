@@ -14,7 +14,7 @@
     border-radius: 50%;
     padding: 10px;
     width: 450px;
-    transition: transform 0.2s;
+    transition: transform 0.7s;
 }
 
 .profilepic:hover{
@@ -28,15 +28,6 @@
     align-items: center;
     justify-content: center;
     color: wheat;
-}
-
-.aboutnav {
-    font-family: 'Times New Roman', Times, serif;
-    color: #ffffff;
-    font-weight: bold;
-    text-decoration: none;
-    display: block;
-    padding: 10px 15px;
 }
 
 .nav a,
@@ -125,7 +116,12 @@
     top: 135px;
     color: #fcfdfd;
     opacity: 0.85;
+    transition: transform 0.2s;
   }
+  
+.hobcontainer:hover {
+    transform: scale(1.03,1.03);
+}
 
 .hobbies-text {
     position: absolute;
@@ -159,7 +155,12 @@
     top: 135px;
     color: #ffffff;
     opacity: 0.8;
-  }
+    transition: transform 0.2s;
+}
+  
+.intcontainer:hover {
+    transform: scale(1.03,1.03);
+}
 
 .interests-text {
     position: absolute;
