@@ -1,11 +1,12 @@
-body {
+/* ABOUT ME PAGE */
+#aboutbg {
     background-image: url("https://i.pinimg.com/originals/90/aa/d1/90aad16e9143cc0d008c3b9026b7a31e.jpg");
     background-repeat: no-repeat;
     background-size: 1720px 1680px;
-    background-position: center;
+    background-position: center; 
 }
 
-img {
+.profilepic {
     position: absolute;
     right: 200px;
     top: 150px;
@@ -16,11 +17,11 @@ img {
     transition: transform 0.2s;
 }
 
-img:hover{
+.profilepic:hover{
     transform: scale(1.03,1.03);
 }
 
-.header {
+.aboutheader {
     background-color: black;
     height: 50px;
     display: flex;
@@ -29,7 +30,7 @@ img:hover{
     color: wheat;
 }
 
-.nav {
+.aboutnav {
     font-family: 'Times New Roman', Times, serif;
     color: #ffffff;
     font-weight: bold;
@@ -38,7 +39,7 @@ img:hover{
     padding: 10px 15px;
 }
 
-.name {
+.aboutname {
     position: absolute;
     left: 84px;
     top: 57px;
@@ -48,7 +49,7 @@ img:hover{
     font-size: 80px;
 }
 
-.description {
+.aboutdescription {
     position: absolute;
     left: 170px;
     top: 270px;
@@ -59,7 +60,7 @@ img:hover{
     font-size: 18px;
 }
 
-footer {
+.aboutfooter {
     position: absolute;
     left: 170px;
     bottom: 100px;
@@ -67,4 +68,234 @@ footer {
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
     transition: transform 0.2s;
+}
+
+/* HOBBIES PAGE */
+
+#hobbiesbg {
+    background-image: url("https://backiee.com/static/wallpapers/3840x2160/258458.jpg");
+    background-repeat: no-repeat;
+    background-size: 1720px 1560px;
+    background-position: center;
+}
+
+.hobheader {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+}
+
+.hobnav {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+
+.hobbies-title {
+    position: absolute;
+    left: 30px;
+    top: -55px;
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+
+.hobcontainer {
+    width: 600px;
+    height: 400px;
+    background-color: #888888;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    margin: 5px;
+    padding: 70px 20px;
+    min-width: 400px;
+    border-radius: 50px;
+    position: absolute;
+    left: 150px;
+    top: 135px;
+    color: #fcfdfd;
+    opacity: 0.85;
+  }
+
+.hobbies-text {
+    position: absolute;
+    left: 40px;
+    top: 130px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    justify-content: center;
+    list-style: none;
+}
+
+.interests-title {
+    position: absolute;
+    right: 30px;
+    top: -55px;
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.intcontainer {
+    width: 600px;
+    height: 400px;
+    background-color: #3c3c3c;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    margin: 5px;
+    padding: 70px 20px;
+    min-width: 400px;
+    border-radius: 50px;
+    position: absolute;
+    right: 150px;
+    top: 135px;
+    color: #ffffff;
+    opacity: 0.8;
+  }
+
+.interests-text {
+    position: absolute;
+    right: 100px;
+    top: 130px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    list-style: none;
+}
+
+/* GALLERY PAGE */
+
+#galbg {
+    background-image: url("https://images.pexels.com/photos/967420/pexels-photo-967420.jpeg?cs=srgb&dl=pexels-lastly-967420.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: 1720px 1550px;
+    background-position: center; 
+}
+
+#galheader {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(253, 253, 253);
+}
+
+.galnav {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+
+#gallery-title {
+    position: absolute;
+    left: 75px;
+    top: -50px;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+
+.gal-title-container {
+    width: 500px;
+    height: 0px;
+    background-color: #3c3c3c;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    margin: 5px;
+    padding: 70px 20px;
+    min-width: 400px;
+    border-radius: 50px;
+    position: absolute;
+    right: 585px;
+    top: 60px;
+    color: #ffffff;
+    opacity: 0.9;
+  }
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: inline;
+    position: absolute;
+    top: 79px;
+}
+
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 325px;
+    width: 100;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    left: -42px;
+}
+
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 325px;
+    width: 100;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    right: -42px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: #45d5ee;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    left: -15px;
+    top: 10px;
+}
+
+.numbertext {
+    color: #45d5ee;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 10px;
+}
+
+.active:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
 }
