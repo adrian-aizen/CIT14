@@ -1,6 +1,6 @@
 /* ABOUT ME PAGE */
 #aboutbg {
-    background-image: url("https://i.pinimg.com/originals/90/aa/d1/90aad16e9143cc0d008c3b9026b7a31e.jpg");
+    background-image: url("aboutbg.jpg");
     background-repeat: no-repeat;
     background-size: 1720px 1680px;
     background-position: center; 
@@ -87,7 +87,7 @@
 /* HOBBIES PAGE */
 
 #hobbiesbg {
-    background-image: url("https://backiee.com/static/wallpapers/3840x2160/258458.jpg");
+    background-image: url("hobbiesbg.jpg");
     background-repeat: no-repeat;
     background-size: 1720px 1560px;
     background-position: center;
@@ -174,7 +174,7 @@
 /* GALLERY PAGE */
 
 #galbg {
-    background-image: url("https://images.pexels.com/photos/967420/pexels-photo-967420.jpeg?cs=srgb&dl=pexels-lastly-967420.jpg&fm=jpg");
+    background-image: url("galbg.jpg");
     background-repeat: no-repeat;
     background-size: 1720px 1550px;
     background-position: center; 
