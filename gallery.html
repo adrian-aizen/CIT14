@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <body>
-            <header>
-            <section>
-                <h1>Gallery</h1>
-                <p>Watashi no Soul Society </p>
-            </section>
-            <section>
-                <img src="https://i.redd.it/yokoso-watashi-no-soul-society-did-aizen-today-how-did-it-v0-bk8pmis8qgub1.jpg?width=490&format=pjpg&auto=webp&s=caf0a5845ffb77ab66fc210f7f46d690e6b8030d" alt="Watashi wa Soul Society">
-            </section>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="animation.js"></script>
+        <body id="galbg">
+            <header id="galheader">
+                <nav class="galnav"></nav>
+                    <nav>
+                    <a href="index.html">About</a>
+                    <a href="hobbies.html">Hobbies</a>
+                    <a href="gallery.html">Gallery</a>
+                </nav>
+                <div class="gal-title-container">
+                <h1 id="gallery-title">GALLERY</h1>
+                <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t1.15752-9/458269705_503053682480039_8886406745492128584_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEyNnv97i_1MkfGurEOlLMahUBMDWJ1uG2FQEwNYnW4bR7JdWEqSkiy7Wm_27L-slYi8OwQ5Bts6ds7M-YVIzWW&_nc_ohc=URer2OyPywoQ7kNvgFwE6el&_nc_ht=scontent.fmnl17-3.fna&_nc_gid=AS6UaGqKFmHW9gRrGQAf74q&oh=03_Q7cD1QFIQ9QsDzT-XXn2an1A9YqYsGXaN0Bd3diE39r9tCTo6w&oe=670CA29B" style="width:100%">
+                    <div class="text">Me</div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="https://scontent.fmnl17-5.fna.fbcdn.net/v/t1.15752-9/457614836_744812041105090_7082385184504116860_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGV_6KAG1p5LhkoFE0Xi30CqQSvdP2zTaypBK90_bNNrMxeTjmYuGz64pFOBEuQRRJjl1sFupantbTifpnklEHV&_nc_ohc=f5FbV7KvmqoQ7kNvgHXQ7U1&_nc_ht=scontent.fmnl17-5.fna&_nc_gid=AS6UaGqKFmHW9gRrGQAf74q&oh=03_Q7cD1QF3UCXkWnvhiMUKwviMrByExyhdovnxGcakmuH7JZ8lMQ&oe=670C90C6" style="width:100%">
+                    <div class="text">Myself</div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="https://scontent.fmnl17-5.fna.fbcdn.net/v/t1.15752-9/446027268_805542351545811_8395632599687439600_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEsRbfnTb0L3FhNlQekzjXybk_65cS903luT_rlxL3TeaSMy23Mea4gJlwXCuH6MvZOMGViC-rTWGNyRdwUToGV&_nc_ohc=D0DqZqO2cpQQ7kNvgFMxVxO&_nc_ht=scontent.fmnl17-5.fna&_nc_gid=AS6UaGqKFmHW9gRrGQAf74q&oh=03_Q7cD1QFu1Ms-912h77C4zAhufUITnopLXW5GeJ4uPJ8a4r9Urg&oe=670CAC0C" style="width:100%">
+                    <div class="text">I</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
             </header>
         </body>
     </head>
