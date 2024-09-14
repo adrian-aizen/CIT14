@@ -39,6 +39,20 @@
     padding: 10px 15px;
 }
 
+.nav a,
+.nav a:visited {
+    font-family: 'Times New Roman', Times, serif;
+    color: #9f9f9f;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav a:hover {
+    color: rgb(30, 122, 56);
+}
+
 .aboutname {
     position: absolute;
     left: 84px;
@@ -79,22 +93,13 @@
     background-position: center;
 }
 
-.hobheader {
+#hobheader {
     background-color: black;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: wheat;
-}
-
-.hobnav {
-    font-family: 'Times New Roman', Times, serif;
-    color: #ffffff;
-    font-weight: bold;
-    text-decoration: none;
-    display: block;
-    padding: 10px 15px;
 }
 
 .hobbies-title {
@@ -184,15 +189,6 @@
     color: rgb(253, 253, 253);
 }
 
-.galnav {
-    font-family: 'Times New Roman', Times, serif;
-    color: #ffffff;
-    font-weight: bold;
-    text-decoration: none;
-    display: block;
-    padding: 10px 15px;
-}
-
 #gallery-title {
     position: absolute;
     left: 75px;
@@ -267,8 +263,9 @@
 }
 
 .text {
-    color: #45d5ee;
-    font-size: 15px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -276,14 +273,19 @@
     text-align: center;
     left: -15px;
     top: 10px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 .numbertext {
-    color: #45d5ee;
-    font-size: 12px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 15px;
     padding: 8px 12px;
     position: absolute;
     top: 10px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 .active:hover {
