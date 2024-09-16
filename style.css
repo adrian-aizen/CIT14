@@ -1,8 +1,9 @@
 /* ABOUT ME PAGE */
 #aboutbg {
     background-image: url("aboutbg.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 1720px 1680px;
+    background-size: cover;
     background-position: center; 
 }
 
@@ -23,7 +24,7 @@
 
 .aboutheader {
     background-color: black;
-    height: 50px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +70,7 @@
     position: absolute;
     left: 170px;
     bottom: 100px;
-    color: #ffffff;
+    color: #e7dfdf;
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
     transition: transform 0.2s;
@@ -79,14 +80,15 @@
 
 #hobbiesbg {
     background-image: url("hobbiesbg.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 1720px 1560px;
+    background-size: cover;
     background-position: center;
 }
 
 #hobheader {
     background-color: black;
-    height: 50px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -176,14 +178,15 @@
 
 #galbg {
     background-image: url("galbg.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 1720px 1550px;
+    background-size: cover;
     background-position: center; 
 }
 
 #galheader {
     background-color: black;
-    height: 50px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
